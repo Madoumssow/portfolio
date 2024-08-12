@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+} 
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+
+img {
+    width: 100%;
+    height: 25em;
+}
+
+h1 {
+    float: left;
+    font-size: 1.5em;
+    padding: 0 5px 0 5px;
+    margin: 0;
+    color: #f0ec06;
+    
+}
+
+ul, li {
+    list-style-type: none;
+    text-align: center;
+    float: left;
+    margin-top: 0;
+
+}
+
+li {
+    margin: 0 10px;
+    padding: 3px 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    float: right;
+    margin-right: 10px;
+}
+
+input {
+    border-radius: 5px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+
+button {
+    border-radius: 5px;
+    margin: 5px 5px;
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+}
+
+/* section accueil */
+.accueil-titre{
+    margin: 0;
+    padding: 0;
+}
+.accueil-titre a{
+    display: inline-block;
+    margin-top: 16.3em;
+    color: #f00625;
+}
+
+.accueil-para{
+    margin-top: 1px;
+    width: 40%;
+    text-align: justify;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+/* section apropos */
+.apropos-titre{
+    margin: 0;
+    padding: 0;
+}
+.apropos-titre a{
+    width: 100%;
+    display: inline-block;
+    color: #f00625;
+}
+
+.apropos-para{
+    margin-top: 1px;
+    width: 40%;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+/* section travail */
+.travail-titre{
+    margin: 0;
+    padding: 0;
+}
+
+.travail-titre a{
+    width: 100%;
+    display: inline-block;
+    color: #f00625;
+}
+
+.travail-para{
+    margin-top: 1px;
+    width: 40%;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+/* section cv */
+.cv-titre{
+    margin: 0;
+    padding: 0;
+}
+
+.cv-titre a{
+    width: 100%;
+    display: inline-block;
+    color: #f00625;
+}
+
+.cv-para{
+    margin-top: 1px;
+    width: 40%;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+/* section contact */
+.contact-titre{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-titre a{
+    width: 100%;
+    display: inline-block;
+    color: #f00625;
+}
+
+.contact-para{
+    margin-top: 1px;
+    width:40%;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+/* peid de page */
+footer{
+    width: 100%;
+    height: 10em;
+    background-color: black;
+    color: #fff;
+}
+
+footer a{
+    color: #f006bd;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+}
